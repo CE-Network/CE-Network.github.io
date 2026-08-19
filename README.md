@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/REPLACE-WITH-YOUR-USERNAME/REPLACE-WITH-YOUR-REPO/main/logo.png" alt="Dutch Circular Economy PhD Network logo" width="180" />
+<img src="https://raw.githubusercontent.com/REPLACE-WITH-YOUR-USERNAME/REPLACE-WITH-YOUR-REPO/main/logo.png](https://github.com/aymara-wagner/CE-PhD-Network/blob/main/Logo.PNG" alt="Dutch Circular Economy PhD Network logo" width="180" />
 
 # Dutch Circular Economy PhD Network
 
@@ -10,7 +10,7 @@
 
 <div align="center">
 
-[Join us](mailto:dutchcephd@protonmail.com) &nbsp;·&nbsp; [LinkedIn group](#) &nbsp;·&nbsp; [Upcoming event](#-upcoming-event)
+[Join us](mailto:dutchcephd@protonmail.com) &nbsp;·&nbsp; [LinkedIn group](https://www.linkedin.com/groups/12075890/) &nbsp;·&nbsp; [Upcoming event](#-upcoming-event)
 
 </div>
 
