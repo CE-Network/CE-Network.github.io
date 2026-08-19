@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/aymara-wagner/CE-PhD-Network/blob/main/Logo.PNG(https://github.com/aymara-wagner/CE-PhD-Network/blob/main/Logo.PNG" alt="Dutch Circular Economy PhD Network logo" width="180" />
+<img src="https://github.com/aymara-wagner/CE-PhD-Network/blob/main/Logo.PNG" alt="Dutch Circular Economy PhD Network logo" width="180" />
 
 # Dutch Circular Economy PhD Network
 
