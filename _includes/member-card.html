@@ -1,0 +1,15 @@
+<article class="member">
+  {% if include.member.photo %}
+  <img class="avatar" src="assets/photos/{{ include.member.photo }}" alt="Portrait of {{ include.member.name }}" loading="lazy" width="92" height="92">
+  {% else %}
+  {% assign name_parts = include.member.name | split: " " %}
+  {% assign first_initial = name_parts.first | slice: 0, 1 %}
+  {% assign last_initial = name_parts.last | slice: 0, 1 %}
+  <div class="avatar avatar-initials" aria-hidden="true">{{ first_initial }}{{ last_initial }}</div>
+  {% endif %}
+  <h3>{{ include.member.name }}</h3>
+  <div class="member-details">
+    {% if include.member.role %}<p class="member-role">{{ include.member.role }}</p>{% endif %}
+    <p class="member-affil">{{ include.member.affiliation }}</p>
+  </div>
+</article>
