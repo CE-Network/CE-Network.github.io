@@ -262,12 +262,6 @@ p:last-child { margin-bottom: 0; }
   margin: 0;
 }
 
-.council-order {
-  margin: 14px 0 0;
-  font-size: 0.8rem;
-  color: var(--ink-faint);
-}
-
 .lead {
   font-size: 1.1rem;
   color: var(--ink-mid);
@@ -489,15 +483,13 @@ img.avatar {
   color: var(--ink-soft);
 }
 
-.member-field,
 .member-tbc {
   margin: 10px 0 0;
   font-size: 0.8rem;
   line-height: 1.5;
+  font-style: italic;
   color: var(--ink-faint);
 }
-
-.member-tbc { font-style: italic; }
 
 /* ---------- 7. Contact ---------- */
 .contact-inner { max-width: 640px; }

@@ -13,8 +13,9 @@ then visit `http://localhost:4321`.
 ## Page structure
 
 `index.html` is laid out in eight numbered sections (see the HTML comments): masthead, invitation,
-about, what to expect, event, council, get involved, footer. The supporters/funders line appears
-in the footer only.
+about, what to expect, event, council, contact, footer. "Who are we?" and "What can you expect?"
+are two blocks that share the single **About** nav link, so only the first carries `id="about"`.
+The supporters/funders line appears in the footer only.
 
 ## Updating the Council Members section
 
@@ -28,16 +29,20 @@ by surname. A complete entry looks like this:
   <div class="member-details">
     <p class="member-role">PhD Candidate</p>
     <p class="member-affil">Institute of Environmental Sciences (CML), Leiden University</p>
-    <p class="member-field">Industrial ecology &middot; critical raw materials</p>
   </div>
 </article>
 ```
 
 - **Avatar** — with a photo, use the `<img class="avatar">` line above; without one, use
   `<div class="avatar avatar-initials" aria-hidden="true">XY</div>` (two-letter initials).
-  Photos live in `assets/photos/`; square images work best, as they are cropped to a circle.
 - **Role** — `PhD Candidate`, `Postdoctoral Researcher`, etc.
-- **Field** — a few words, separated by `&middot;`.
+- **Affiliation** — institute or faculty, then university. No research topic.
 
-While a member's details are still unknown, drop `member-role` and `member-field` and use just
-the university plus `<p class="member-tbc">Details to be confirmed.</p>`.
+While a member's details are still unknown, drop `member-role` and use just the university plus
+`<p class="member-tbc">Details to be confirmed.</p>`.
+
+### Photos
+
+Photos live in `assets/photos/`. Crop them **square** before adding them — they are displayed at
+92px in a circle, so a full-body or portrait-format shot leaves the face too small. Around
+200–400px square, under ~50KB, is plenty.
