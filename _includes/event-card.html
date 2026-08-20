@@ -9,7 +9,7 @@
   <dl class="event-meta">
     <div class="event-meta-item">
       <dt>Date</dt>
-      <dd>{{ include.event.date | date: "%-d %B %Y" }}</dd>
+      <dd>{{ include.event.date | date: "%-d %B %Y" }}{% if include.event.time %}<br><span class="event-time">{{ include.event.time }}</span>{% endif %}</dd>
     </div>
     <div class="event-meta-item">
       <dt>Location</dt>

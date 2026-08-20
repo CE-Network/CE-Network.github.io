@@ -8,6 +8,7 @@ location_url: "https://www.google.nl/maps/place/Princetonlaan+6,+3508+TA+Utrecht
 registration_opens: 2026-09-14
 registration_note: "The registration form will be shared here and in our [LinkedIn group](https://www.linkedin.com/groups/12075890/)."
 credit: "Supported by the UU Youth Fund and the ACT! consortium."
+programme_title: "Preliminary Programme"
 programme:
   - title: "Plenary panel"
     description: "Researchers, policymakers, and NGO representatives discuss collaboration across academic and non-academic knowledge silos, with audience Q&A."

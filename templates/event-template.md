@@ -24,6 +24,10 @@ event_type: "One short line describing the format, e.g. Full-day symposium for P
 # Date format is YYYY-MM-DD, no quotes.
 date: 2027-01-01
 
+# Optional — leave out entirely if you don't want a time shown. Free text,
+# write it however reads best: "14:00", "09:00–17:00", "Doors at 18:30".
+time: "09:00–17:00"
+
 location_name: "Venue name, building"
 location_address: "Street and number, postcode City"
 location_url: "https://www.google.com/maps/place/..."
@@ -36,8 +40,10 @@ registration_note: "The registration form will be shared here and in our [Linked
 credit: "Supported by ..."
 
 # Optional — leave out entirely (delete these lines) for an event with no
-# programme. To add a step, copy one "- title: ..." block including both
-# of its lines.
+# programme. "Programme" is the default heading; set programme_title to
+# override it, e.g. to "Preliminary Programme" before it's finalised.
+# To add a step, copy one "- title: ..." block including both of its lines.
+programme_title: "Preliminary Programme"
 programme:
   - title: "First programme item"
     description: "What happens in this part of the day."
