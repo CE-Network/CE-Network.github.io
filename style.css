@@ -262,6 +262,11 @@ p:last-child { margin-bottom: 0; }
   margin: 0;
 }
 
+.empty-note {
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
 .lead {
   font-size: 1.1rem;
   color: var(--ink-mid);
@@ -406,6 +411,77 @@ p:last-child { margin-bottom: 0; }
   margin-top: 22px;
   font-size: 0.82rem;
   color: var(--ink-faint);
+}
+
+/* Multiple upcoming events, each with its own heading above the panel */
+.event-entry + .event-entry {
+  margin-top: 56px;
+}
+
+.event-entry-head {
+  max-width: 70ch;
+  margin-bottom: 20px;
+}
+
+.event-entry-head h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.7rem);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 0.3em;
+}
+
+/* Past events: native <details>/<summary>, collapsed by default */
+.past-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.past-event {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  overflow: hidden;
+}
+
+.past-event summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  padding: 18px 24px;
+  cursor: pointer;
+  list-style: none;
+}
+.past-event summary::-webkit-details-marker { display: none; }
+
+.past-event summary::before {
+  content: "+";
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--ink-faint);
+  width: 1em;
+}
+.past-event[open] summary::before { content: "\2212"; }
+
+.past-event-date {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.past-event-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.past-event .event-panel {
+  border: 0;
+  border-radius: 0;
+  border-top: 1px solid var(--line);
 }
 
 /* ---------- 6. Council ---------- */

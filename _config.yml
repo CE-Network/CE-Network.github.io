@@ -1,0 +1,33 @@
+title: Dutch Circular Economy PhD Network
+description: >-
+  Connecting PhD researchers working on the circular economy transition
+  across the Netherlands.
+url: "https://aymara-wagner.github.io"
+baseurl: "/CE-PhD-Network"
+
+# "events" and "past-events-today" cutoff: an event with a date on or after
+# today counts as upcoming. See index.html for the exact comparison.
+collections:
+  events:
+    output: false
+  council:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Files/folders Jekyll should not try to build or copy into the site.
+exclude:
+  - templates/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .claude/
+  - node_modules/
+
+# No third-party plugins beyond what "github-pages" already bundles, so the
+# native GitHub Pages build (no custom Actions workflow) can build this site.

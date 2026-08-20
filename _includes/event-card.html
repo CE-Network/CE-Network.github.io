@@ -1,0 +1,38 @@
+<div class="event-panel">
+  <dl class="event-meta">
+    <div class="event-meta-item">
+      <dt>Date</dt>
+      <dd>{{ include.event.date | date: "%-d %B %Y" }}</dd>
+    </div>
+    <div class="event-meta-item">
+      <dt>Location</dt>
+      <dd>{{ include.event.location_name }}<br><a href="{{ include.event.location_url }}" target="_blank" rel="noopener">{{ include.event.location_address }}</a></dd>
+    </div>
+    {% if include.event.registration_opens or include.event.registration_note %}
+    <div class="event-meta-item">
+      <dt>Registration</dt>
+      <dd>{% if include.event.registration_opens %}Sign-up opens on <strong>{{ include.event.registration_opens | date: "%-d %B %Y" }}</strong>. {% endif %}{% capture reg_note %}{{ include.event.registration_note | markdownify }}{% endcapture %}{{ reg_note | remove: "<p>" | remove: "</p>" | strip }}</dd>
+    </div>
+    {% endif %}
+  </dl>
+
+  <div class="event-body">
+    {{ include.event.content }}
+
+    {% if include.event.programme %}
+    <h3 class="programme-title">{{ include.event.programme_title | default: "Programme" }}</h3>
+    <ol class="programme">
+      {% for step in include.event.programme %}
+      <li>
+        <h4>{{ step.title }}</h4>
+        {{ step.description | markdownify }}
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+
+    {% if include.event.credit %}
+    <p class="event-credit">{{ include.event.credit }}</p>
+    {% endif %}
+  </div>
+</div>

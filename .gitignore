@@ -1,6 +1,13 @@
 # Local editor / tooling config
 .claude/
 
+# Jekyll build output and local gem state — GitHub builds this itself
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
 # OS cruft
 .DS_Store
 Thumbs.db
