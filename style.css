@@ -378,27 +378,24 @@ p:last-child { margin-bottom: 0; }
 
 .programme {
   list-style: none;
-  counter-reset: prog;
   margin: 0;
   padding: 0;
 }
 
 .programme li {
-  counter-increment: prog;
   position: relative;
-  padding: 20px 0 20px 44px;
+  padding: 20px 0 20px 22px;
   border-bottom: 1px solid var(--line);
 }
 
 .programme li::before {
-  content: counter(prog, decimal-leading-zero);
+  content: "";
   position: absolute;
   left: 0;
-  top: 20px;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  color: var(--ink-faint);
-  font-variant-numeric: tabular-nums;
+  top: 29px;
+  width: 12px;
+  height: 2px;
+  background: var(--accent);
 }
 
 .programme h4 {
