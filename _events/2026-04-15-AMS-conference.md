@@ -23,6 +23,7 @@ event_type: "Session at AMS Conference"
 
 # Date format is YYYY-MM-DD, no quotes.
 date: 2026-04-15
+time: "15:00–17:00"
 
 location_name: "CRCL Park - Marineterrein"
 location_address: "Kattenburgerstraat 5, Building 027W, 1018 JA Amsterdam"
@@ -46,8 +47,6 @@ Are you a interested in how to co-create pathways for a circular city through a 
 We’re excited to co-host a Special Session at the AMS Scientific Conference 2026 together with Accelerating the Circular Transition (ACT!) Consortium:
 
 **Accelerating the Circular Transition in your city: the Sustainable Pathways Game**
-
-📅 15 April | 15:00–17:00
 
 In this interactive session, we’ll explore pathways toward circular and inclusive neighborhoods through a serious game. Navigate shocks, trends, and uncertainties—and co-create strategies to accelerate the circular transition.
 

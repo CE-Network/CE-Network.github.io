@@ -23,6 +23,7 @@ event_type: "Session at 8th Workshop of the Dutch Academic Network of Circular E
 
 # Date format is YYYY-MM-DD, no quotes.
 date: 2025-10-10
+time: "13:30-14:30"
 
 location_name: "DesignLab"
 location_address: "Hengelosestraat 500, 7521 AN Enschede, Netherlands"
