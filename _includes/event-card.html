@@ -31,8 +31,9 @@
     <ol class="programme">
       {% for step in include.event.programme %}
       <li>
-        <h4>{{ step.title }}</h4>
-        {{ step.description | markdownify }}
+        {% capture step_title %}{{ step.title | markdownify }}{% endcapture %}
+        <h4>{{ step_title | remove: "<p>" | remove: "</p>" | strip }}</h4>
+        {% if step.description %}{{ step.description | markdownify }}{% endif %}
       </li>
       {% endfor %}
     </ol>
