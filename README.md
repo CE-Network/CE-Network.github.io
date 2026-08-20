@@ -16,15 +16,28 @@ then visit `http://localhost:4321`.
 about, what to expect, event, council, get involved, footer. The supporters/funders line appears
 in the footer only.
 
-## Updating the PhD Council section
+## Updating the Council Members section
 
 Each council member is one `<article class="member">` block in `index.html`, sorted alphabetically
-by surname. To add or edit a member, copy an existing block and change the avatar line:
+by surname. A complete entry looks like this:
 
-- Photo available: `<img class="avatar" src="assets/photos/<file>.jpg" alt="Portrait of <Name>" loading="lazy" width="92" height="92">`
-- No photo: `<div class="avatar avatar-initials" aria-hidden="true">XY</div>` (two-letter initials)
+```html
+<article class="member">
+  <img class="avatar" src="assets/photos/bocher-catrin.jpg" alt="Portrait of Catrin Böcher" loading="lazy" width="92" height="92">
+  <h3>Catrin Böcher</h3>
+  <div class="member-details">
+    <p class="member-role">PhD Candidate</p>
+    <p class="member-affil">Institute of Environmental Sciences (CML), Leiden University</p>
+    <p class="member-field">Industrial ecology &middot; critical raw materials</p>
+  </div>
+</article>
+```
 
-Photos live in `assets/photos/`. Square images work best — they are cropped to a circle.
+- **Avatar** — with a photo, use the `<img class="avatar">` line above; without one, use
+  `<div class="avatar avatar-initials" aria-hidden="true">XY</div>` (two-letter initials).
+  Photos live in `assets/photos/`; square images work best, as they are cropped to a circle.
+- **Role** — `PhD Candidate`, `Postdoctoral Researcher`, etc.
+- **Field** — a few words, separated by `&middot;`.
 
-For a member whose research topic is not yet confirmed, use
-`<p class="member-bio member-bio-tbc">Topic to be confirmed.</p>`.
+While a member's details are still unknown, drop `member-role` and `member-field` and use just
+the university plus `<p class="member-tbc">Details to be confirmed.</p>`.

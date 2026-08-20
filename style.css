@@ -262,6 +262,12 @@ p:last-child { margin-bottom: 0; }
   margin: 0;
 }
 
+.council-order {
+  margin: 14px 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
 .lead {
   font-size: 1.1rem;
   color: var(--ink-mid);
@@ -328,7 +334,7 @@ p:last-child { margin-bottom: 0; }
 
 .event-meta {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0;
   margin: 0;
   border-bottom: 1px solid var(--line);
@@ -401,10 +407,19 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-soft);
 }
 
-.event-footnote {
+.event-signup {
   margin-top: 24px;
-  font-size: 0.92rem;
-  color: var(--ink-soft);
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.event-signup strong { font-weight: 600; }
+
+.event-credit {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 0.82rem;
+  color: var(--ink-faint);
 }
 
 /* ---------- 6. Council ---------- */
@@ -451,29 +466,38 @@ img.avatar {
 
 .member h3 {
   font-size: 1.1rem;
-  margin-bottom: 0.15em;
+  margin-bottom: 0;
 }
 
-.member-uni {
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--ink-faint);
-  margin: 0 0 14px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--line);
+.member-details {
+  margin-top: 13px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
 }
 
-.member-bio {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: var(--ink-soft);
+.member-role {
+  margin: 0 0 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.member-affil {
   margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
 }
 
-.member-bio-tbc {
-  font-style: italic;
+.member-field,
+.member-tbc {
+  margin: 10px 0 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--ink-faint);
 }
+
+.member-tbc { font-style: italic; }
 
 /* ---------- 7. Contact ---------- */
 .contact-inner { max-width: 640px; }
