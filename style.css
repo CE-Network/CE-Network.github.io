@@ -401,17 +401,9 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-soft);
 }
 
-.event-signup {
-  margin-top: 24px;
-  font-size: 0.95rem;
-  color: var(--ink);
-}
-.event-signup strong { font-weight: 600; }
-
+/* Sits below the programme list, whose final row already ends in a rule */
 .event-credit {
-  margin-top: 18px;
-  padding-top: 16px;
-  border-top: 1px solid var(--line);
+  margin-top: 22px;
   font-size: 0.82rem;
   color: var(--ink-faint);
 }
