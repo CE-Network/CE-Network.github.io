@@ -13,9 +13,16 @@ then visit `http://localhost:4321`.
 ## Page structure
 
 `index.html` is laid out in eight numbered sections (see the HTML comments): masthead, invitation,
-about, what to expect, event, council, contact, footer. "Who are we?" and "What can you expect?"
+about, what to expect, events, council, contact, footer. "Who are we?" and "What can you expect?"
 are two blocks that share the single **About** nav link, so only the first carries `id="about"`.
 The supporters/funders line appears in the footer only.
+
+### Convention: teal labels must match the nav
+
+The small teal uppercase label (`<p class="label">`) above a section heading must read exactly the
+same as that section's link in the top navigation — About, Events, Council, Contact. A section that
+has no nav link gets no label. The one deliberate exception is the invitation band's "Join the
+network", which is a call to action rather than a nav destination.
 
 ## Updating the Council Members section
 
