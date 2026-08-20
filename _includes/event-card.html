@@ -1,4 +1,11 @@
 <div class="event-panel">
+  {% unless include.hide_title %}
+  <div class="event-panel-head">
+    <h3>{{ include.event.title }}</h3>
+    {% if include.event.event_type %}<p class="event-panel-type">{{ include.event.event_type }}</p>{% endif %}
+  </div>
+  {% endunless %}
+
   <dl class="event-meta">
     <div class="event-meta-item">
       <dt>Date</dt>
