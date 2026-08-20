@@ -3,7 +3,7 @@ description: >-
   Connecting PhD researchers working on the circular economy transition
   across the Netherlands.
 url: "https://aymara-wagner.github.io"
-baseurl: "/CE-PhD-Network"
+baseurl: "/CE-Network"
 
 # "events" and "past-events-today" cutoff: an event with a date on or after
 # today counts as upcoming. See index.html for the exact comparison.
