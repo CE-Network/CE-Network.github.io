@@ -331,6 +331,12 @@ p:last-child { margin-bottom: 0; }
   overflow: hidden;
 }
 
+/* Upcoming events get a teal accent edge so the card reads as the
+   featured item on the page. Past events (in .past-event) stay plain. */
+.event-entry .event-panel {
+  border-left: 9px solid var(--accent);
+}
+
 .event-meta {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -413,22 +419,29 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-faint);
 }
 
-/* Multiple upcoming events, each with its own heading above the panel */
+/* Multiple upcoming events, each its own fully-framed card */
 .event-entry + .event-entry {
-  margin-top: 56px;
+  margin-top: 40px;
 }
 
-.event-entry-head {
-  max-width: 70ch;
-  margin-bottom: 20px;
+.event-panel-head {
+  padding: 30px 28px 26px;
+  background: rgba(20, 112, 107, 0.06);
+  border-bottom: 1px solid var(--line);
 }
 
-.event-entry-head h3 {
+.event-panel-head h3 {
   font-family: var(--font-display);
   font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.7rem);
   letter-spacing: -0.01em;
   color: var(--ink);
   margin-bottom: 0.3em;
+}
+
+.event-panel-type {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1rem;
 }
 
 /* Past events: native <details>/<summary>, collapsed by default */

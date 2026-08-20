@@ -26,8 +26,8 @@ description: >-
       <p class="label">Join the network</p>
       <p class="invitation-text">Are you an early-career researcher exploring a topic related to the circular economy at a Dutch university? Would you like to help nurture and grow an exciting circular economy network by participating in networking events, research talks, and excursions? Then we invite you to join the <strong>Dutch CE&nbsp;PhD Network</strong>.</p>
       <div class="actions">
-        <a class="btn btn-primary" href="mailto:dutchcephd@protonmail.com">Join our mailing list</a>
-        <a class="btn btn-quiet" href="https://www.linkedin.com/groups/12075890/" target="_blank" rel="noopener">Join our LinkedIn group</a>
+        <a class="btn btn-primary" href="https://www.linkedin.com/groups/12075890/" target="_blank" rel="noopener">Join our LinkedIn group</a>
+        <a class="btn btn-quiet" href="mailto:dutchcephd@protonmail.com">Send us an email</a>
       </div>
     </div>
   </div>
@@ -97,10 +97,6 @@ description: >-
     {% if future_events.size > 0 %}
       {% for event in future_events %}
       <article class="event-entry">
-        <div class="event-entry-head">
-          <h3>{{ event.title }}</h3>
-          {% if event.event_type %}<p class="section-standfirst">{{ event.event_type }}</p>{% endif %}
-        </div>
         {% include event-card.html event=event %}
       </article>
       {% endfor %}
@@ -111,6 +107,7 @@ description: >-
 </section>
 
 <!-- 6. Past Events -->
+{% assign past_events = site.events | where_exp: "e", "e.date < site.time" | sort: "date" | reverse %}
 {% if past_events.size > 0 %}
 <section id="past-events" class="section section-alt">
   <div class="wrap">
@@ -119,7 +116,6 @@ description: >-
       <h2>Past Events</h2>
     </div>
 
-    {% assign past_events = site.events | where_exp: "e", "e.date < site.time" | sort: "date" | reverse %}
       <div class="past-events-list">
         {% for event in past_events %}
         <details class="past-event">
@@ -127,7 +123,7 @@ description: >-
             <span class="past-event-date">{{ event.date | date: "%-d %B %Y" }}</span>
             <span class="past-event-title">{{ event.title }}</span>
           </summary>
-          {% include event-card.html event=event %}
+          {% include event-card.html event=event hide_title=true %}
         </details>
         {% endfor %}
       </div>

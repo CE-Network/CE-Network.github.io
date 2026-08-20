@@ -7,7 +7,8 @@
     <nav class="site-nav" aria-label="Main">
       <a href="#about">About</a>
       <a href="#future-events">Future Events</a>
-      {% if past_events.size > 0 %}
+      {% assign has_past_events = site.events | where_exp: "e", "e.date < site.time" %}
+      {% if has_past_events.size > 0 %}
       <a href="#past-events">Past Events</a>
       {% endif %}
       <a href="#council">Council</a>
