@@ -11,7 +11,7 @@ credit: "Supported by the UU Youth Fund and the ACT! consortium."
 programme_title: "Preliminary Programme"
 programme:
   - title: "Plenary panel / Keynote"
-    description: "Researchers, policymakers, and NGO representatives discuss collaboration across academic and non-academic knowledge silos, with audience Q&A."
+    description: "Researchers, policymakers, businees, and NGO representatives discuss collaboration across academic and non-academic knowledge silos, with audience Q&A."
   - title: "Parallel session"
     description: "Participants get the chance to present their own work in parallel thematic sessions, either in the form of short pitches or full presentations."
   - title: "Collective mapping workshop"
