@@ -1,6 +1,6 @@
 # Dutch Circular Economy PhD-Postdoc Network
 
-Source for the [Dutch CE PhD-Postdoc Network website](https://aymara-wagner.github.io/CE-Network/), connecting early-career researchers working on the circular economy transition across the Netherlands.
+Source for the [Dutch CE PhD-Postdoc Network website](https://ce-network.github.io/), connecting early-career researchers working on the circular economy transition across the Netherlands.
 
 This guide is written for editors with little or no coding experience. The two things you'll do most — adding an event, adding a council member — need nothing more than filling in a template file. Everything past that section is background reference for anyone who wants it.
 
@@ -11,12 +11,12 @@ This guide is written for editors with little or no coding experience. The two t
 You only need to do this once.
 
 1. Install **[GitHub Desktop](https://desktop.github.com/)** and sign in with your GitHub account.
-2. Go to the [repository page](https://github.com/aymara-wagner/CE-Network) and click the green **Code** button, then **Open with GitHub Desktop**.
+2. Go to the [repository page](https://github.com/CE-Network/CE-Network.github.io) and click the green **Code** button, then **Open with GitHub Desktop**.
 3. Choose a folder on your computer and click **Clone**.
 
 You now have a folder with all the site's files, and GitHub Desktop will show you what's changed whenever you edit something.
 
-**Prefer not to install anything?** You can skip cloning entirely and edit files directly on [github.com](https://github.com/aymara-wagner/CE-Network) — open the file, click the pencil (✏️) icon, make your change, and scroll down to commit it. This works for everything below.
+**Prefer not to install anything?** You can skip cloning entirely and edit files directly on [github.com](https://github.com/CE-Network/CE-Network.github.io) — open the file, click the pencil (✏️) icon, make your change, and scroll down to commit it. This works for everything below.
 
 ---
 
@@ -45,7 +45,7 @@ They appear on the site automatically, sorted alphabetically by surname.
 
 Small text edits (a name, a date, a sentence) can't break the page layout — the template controls that, not you. To actually see the result:
 
-- **Push it, then wait about a minute** and look at the [live site](https://aymara-wagner.github.io/CE-Network/). This works for any edit and needs nothing installed.
+- **Push it, then wait about a minute** and look at the [live site](https://ce-network.github.io/). This works for any edit and needs nothing installed.
 - If you badly damage a file's structure (e.g. delete one of the `---` lines), the site's automatic build fails safely: you'll get an email from GitHub, and **the live site keeps showing its last working version** — it does not go down or show something broken.
 
 ---
@@ -86,7 +86,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-This starts a local server (usually `http://127.0.0.1:4000/CE-Network/`) that rebuilds automatically whenever you save a file. `Gemfile` pins Jekyll and every plugin to the exact versions GitHub Pages builds with in production, so what you see locally matches what goes live.
+This starts a local server (usually `http://127.0.0.1:4000/`) that rebuilds automatically whenever you save a file. `Gemfile` pins Jekyll and every plugin to the exact versions GitHub Pages builds with in production, so what you see locally matches what goes live.
 
 ### HTML basics, if you're editing `index.html` directly
 
