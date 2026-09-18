@@ -1,0 +1,7 @@
+<div class="panelist">
+  <img class="avatar" src="assets/photos/panelists/{{ include.panelist.photo }}" alt="Portrait of {{ include.panelist.name }}" loading="lazy" width="64" height="64">
+  <div class="panelist-details">
+    <h4>{{ include.panelist.name }}<span class="panelist-affil"> — {{ include.panelist.affiliation }}</span></h4>
+    {% if include.panelist.bio %}<p>{{ include.panelist.bio }}</p>{% endif %}
+  </div>
+</div>

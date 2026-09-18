@@ -421,6 +421,54 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-faint);
 }
 
+/* Compact panelist rows — lighter-weight than the Council cards, since a
+   panel is only a few people and shouldn't compete for space with the
+   programme above it. */
+.panelists-title {
+  font-size: 1.15rem;
+  margin: 32px 0 4px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.panelists {
+  display: flex;
+  flex-direction: column;
+}
+
+.panelist {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.panelist:last-child { border-bottom: 0; }
+
+.panelist .avatar {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 0;
+}
+
+.panelist-details h4 {
+  font-size: 0.98rem;
+  margin: 0 0 2px;
+}
+
+.panelist-affil {
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+.panelist-details p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
 /* Multiple upcoming events, each its own fully-framed card */
 .event-entry + .event-entry {
   margin-top: 40px;

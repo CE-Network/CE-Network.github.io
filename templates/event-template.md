@@ -49,6 +49,20 @@ programme:
     description: "What happens in this part of the day."
   - title: "Second programme item"
     description: "What happens in this part. You can link things like this: [Community Sense](https://www.communitysense.nl/)."
+
+# Optional — leave out entirely if there's no panel to introduce. Shown
+# below the programme. Photo is required (no initials fallback like the
+# Council photos); put panelist photos in assets/photos/panelists/ — a
+# separate folder from the Council's assets/photos/ so they don't mix up.
+# "Confirmed Panelists" is the default heading; set panelists_title to
+# override it, e.g. to "Panelists" before the lineup is finalised.
+# To add a panelist, copy one "- name: ..." block including all four lines.
+panelists_title: "Confirmed Panelists"
+panelists:
+  - name: "Panelist's full name"
+    affiliation: "Their institution or organisation"
+    bio: "One sentence on their work or angle for this panel."
+    photo: "surname-firstname.jpg"
 ---
 Write one or two paragraphs describing the event here, below the second
 "---" line above. This part uses plain writing, not the field: value

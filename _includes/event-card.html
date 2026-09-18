@@ -39,6 +39,15 @@
     </ol>
     {% endif %}
 
+    {% if include.event.panelists %}
+    <h3 class="panelists-title">{{ include.event.panelists_title | default: "Panelists" }}</h3>
+    <div class="panelists">
+      {% for panelist in include.event.panelists %}
+        {% include panelist-card.html panelist=panelist %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
     {% if include.event.credit %}
     <p class="event-credit">{{ include.event.credit }}</p>
     {% endif %}
