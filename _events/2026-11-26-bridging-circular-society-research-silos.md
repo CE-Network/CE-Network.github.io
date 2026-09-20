@@ -19,7 +19,7 @@ programme:
     description: "What connects your research to that of the other researchers at the event? Ahead of the event, [CommunitySense](https://www.communitysense.nl/) builds a custom living map of participants' PhD or postdoc research projects, charting them along four dimensions: the scientific fields you draw on, the sectors you study, the research methods you use, and the geographical contexts you work in.<br>During the workshop we explore that map together. After a plenary introduction, small groups zoom in on particular parts of the map and distil 'seeds of change': concrete challenges plus possible directions for action. These are added back into the map afterwards, so they remain visible after the event.<br>You leave with a clearer sense of where your own project sits in the wider field, a set of people whose work genuinely overlaps with yours, and a shared basis for collaboration in our community!<br>*A maximum of 30 projects will be mapped, allocated in order of registration. Indicate in the registration survey whether you would like your own project included. If you are among the first 30, you will receive a short follow-up survey closer to the workshop date. Everyone is welcome to join the workshop, whether or not their own project is mapped.*"
   - title: "Networking & Drinks"
     description: "Connect with your peers, senior staff and panelists present enjoying a drink. The free event also includes lunch."
-panelists_title: "Confirmed Panelists (more to be announced)"
+panelists_title: "Panelists (more to be announced)"
 panelists:
   - name: "Julian Kirchherr"
     affiliation: "Utrecht University"
