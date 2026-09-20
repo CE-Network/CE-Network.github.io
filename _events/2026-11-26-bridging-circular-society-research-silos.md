@@ -35,7 +35,7 @@ panelists:
 ---
 **Call for participants and presentations:**
 
-Are you an early career researcher on circularity in the Netherlands? Join us for our event under theme of ‘Bridging Circular Society Research Silos: Where do Scopes Meet?’ 
+**Are you an early career researcher on circularity in the Netherlands? Join us for our event under theme of ‘Bridging Circular Society Research Silos: Where do Scopes Meet?’**
 
 Your research is part of a bigger picture! The Netherlands is a leading circularity research hub, but our research communities can still feel like separate islands. 
 *What happens when we connect them?*
