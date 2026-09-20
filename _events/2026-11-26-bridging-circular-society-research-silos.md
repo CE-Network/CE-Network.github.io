@@ -12,7 +12,7 @@ credit: "Copernicus Junior Fund, UU Circular Economy Community and the ACT! Cons
 programme_title: "What's in it for you?"
 programme:
   - title: "Panel Discussion"
-    description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Julian Kirchherr (Utrecht University), Winne van Woerden (Oxfam Novib) and others to be announced soon!"
+    description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Julian Kirchherr (Utrecht University), Winne van Woerden (Oxfam Novib), Marieke van Doorninck (Social Innovator) and others to be announced soon!"
   - title: "Research Presentations"
     description: "Present your own work to peers and senior researchers, and discover what fellow PhD candidates and postdocs are working on across Dutch universities. Full presentation (15 mins) and pitch presentations (5 mins) are available."
   - title: "Living Map Workshop"
@@ -29,6 +29,9 @@ panelists:
     affiliation: "Oxfam Novib"
     #bio: "TODO: add a one-sentence bio."
     photo: "vanwoerden-winne.jpg"
+  - name: "Marieke van Doorninck"
+    affiliation: "Director, Kennisland / former Deputy Mayor of Amsterdam"
+    photo: "vandoorninck-marieke.jpg"
 ---
 **Call for participants and presentations:**
 
