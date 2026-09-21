@@ -36,12 +36,12 @@ panelists:
 ---
 **Call for participants and presentations:**
 
-**Are you an early career researcher on circularity in the Netherlands? Join us for our event under theme of ‘Bridging Circular Society Research Silos: Where do Scopes Meet?’**
+**Are you an early career researcher on circularity in the Netherlands? Join us for our event under the theme of ‘Bridging Circular Society Research Silos: Where do Scopes Meet?’**
 
 Your research is part of a bigger picture! The Netherlands is a leading circularity research hub, but our research communities can still feel like separate islands. 
 *What happens when we connect them?*
 
-The PhD & Postdoc Council of the Dutch Academic Network of Circular Economy (DAN-CE) is organizing a full-day symposium bringing together early career researchers from all disciplines working on the acceleration of the transition to a circular society in the Netherlands. Living within planetary boundaries while ensuring wellbeing requires real system transformation across academic disciplines and beyond. This event is a step toward finding convergence and leveraging tension points between early-career researchers across the field. 
+The PhD & Postdoc Council of the Dutch Academic Network on Circular Economy (DAN-CE) is organizing a full-day symposium bringing together early career researchers from all disciplines working on the acceleration of the transition to a circular society in the Netherlands. Living within planetary boundaries while ensuring wellbeing requires real system transformation across academic disciplines and beyond. This event is a step toward finding convergence and leveraging tension points between early-career researchers across the field. 
 
-*The event is free of charge. Traveling reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*
+*The event is free of charge. Travel reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*
 
