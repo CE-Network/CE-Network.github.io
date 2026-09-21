@@ -7,12 +7,12 @@ location_name: "Playground Utrecht University, Vening Meineszgebouw C"
 location_address: "Princetonlaan 6, 3584 CB Utrecht"
 location_url: "https://www.google.nl/maps/place/Princetonlaan+6,+3508+TA+Utrecht"
 #registration_opens: 2026-09-21
-registration_note: "**Register [here](https://forms.gle/Z8JWEuQsD8LDzk4c8)** (registration opens on 21 September 2026).<br>The registration deadline is **16 October 2026** for presenters and workshop participants, availability is limited."
+registration_note: "**Register [here](https://forms.gle/Z8JWEuQsD8LDzk4c8)**<br>The registration deadline is **16 October 2026** for presenters and workshop participants, availability is limited."
 credit: "Copernicus Junior Fund, UU Circular Economy Community and the ACT! Consortium."
 programme_title: "What's in it for you?"
 programme:
   - title: "Panel Discussion"
-    description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Julian Kirchherr (Utrecht University), Winne van Woerden (Oxfam Novib), Marieke van Doorninck (Social Innovator) and others to be announced soon!"
+    description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Julian Kirchherr (Utrecht University), Winne van Woerden (Oxfam Novib), Marieke van Doorninck (Social innovator and former Deputy Mayor of Amsterdam) and others to be announced soon!"
   - title: "Research Presentations"
     description: "Present your own work to peers and senior researchers, and discover what fellow PhD candidates and postdocs are working on across Dutch universities. Full presentation (15 mins) and pitch presentations (5 mins) are available."
   - title: "Living Map Workshop"
@@ -30,7 +30,8 @@ panelists:
     #bio: "TODO: add a one-sentence bio."
     photo: "vanwoerden-winne.jpg"
   - name: "Marieke van Doorninck"
-    affiliation: "Director, Kennisland / former Deputy Mayor of Amsterdam"
+    affiliation: "Social innovator and former Deputy Mayor of Amsterdam"
+    bio: "Marieke van Doorninck is a social innovator who served as Amsterdam's Deputy Mayor for Spatial Development and Sustainability (2018–2022), where she worked to combine the shift to sustainable energy and a climate-neutral city with climate justice, and later led the social innovation lab Kennisland as director. Today she is kwartiermaker of the Post-Growth Living Lab at the Marineterrein for AMS Institute, chairs De Gezonde Stad and (ad interim) Amsterdam Energie, co-chairs the Board of Trustees of WECF International, and advises the We Doen Het Samen coalition on public affairs. With a background spanning human rights, sustainability and the circular economy, she is driven by social and ecological justice and a belief in 'changing by doing': supporting initiatives from the ground up and giving people a real stake in their own living environment, work and future"
     photo: "vandoorninck-marieke.jpg"
 ---
 **Call for participants and presentations:**
