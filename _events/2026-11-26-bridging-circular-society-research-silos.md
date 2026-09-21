@@ -27,11 +27,11 @@ panelists:
     photo: "vandoorninck-marieke.jpg"
   - name: "Julian Kirchherr"
     affiliation: "Utrecht University, Roskilde University, and McKinsey & Company"
-    bio: "Julian Kirchher is one of the world’s leading circular-economy scholars, ranked #1 among the field’s most influential authors in a recent bibliometric study. His research has attracted more than 30,000 citations, also placing him among the top 0,1% of researchers worldwide across all academic fields. He is Professor of Circular Economy at Roskilde University in Denmark. His best-known work includes the field-defining Conceptualizing the Circular Economy: An Analysis of 114 Definitions and Bullshit in the Sustainability and Transitions Literature: A Provocation. Alongside his pioneering academic work, Julian is a Partner at McKinsey & Company."
+    bio: "Julian Kirchherr is one of the world’s leading circular-economy scholars, ranked #1 among the field’s most influential authors in a recent bibliometric study. His research has attracted more than 30,000 citations, also placing him among the top 0,1% of researchers worldwide across all academic fields. He is Professor of Circular Economy at Roskilde University in Denmark. His best-known work includes the field-defining Conceptualizing the Circular Economy: An Analysis of 114 Definitions and Bullshit in the Sustainability and Transitions Literature: A Provocation. Alongside his pioneering academic work, Julian is a Partner at McKinsey & Company."
     photo: "kirchherr-julian.jpg"
   - name: "Winne van Woerden"
     affiliation: "Oxfam Novib"
-    bio: "Winne van Woerden works as Influencing Lead New Economy at Oxfam Novib. In her role, she works towards a fundamental shift in our economic narratives and models - away from growth and towards justice, care and ecology. Beside her work at Oxfam, she is active as an affiliate at the Post Growth Institute, and is one of the co-authors of the influential book 'Er is Leven Na de Groei'."
+    bio: "Winne van Woerden works as Influencing Lead New Economy at Oxfam Novib. In her role, she works towards a fundamental shift in our economic narratives and models - away from growth and towards justice, care and ecology. Besides her work at Oxfam, she is active as an affiliate at the Post Growth Institute, and is one of the co-authors of the influential book 'Er is Leven Na de Groei'."
     photo: "vanwoerden-winne.jpg"
 ---
 **Call for participants and presentations:**
