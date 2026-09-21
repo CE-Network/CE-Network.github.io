@@ -43,5 +43,5 @@ Your research is part of a bigger picture! The Netherlands is a leading circular
 
 The PhD & Postdoc Council of the Dutch Academic Network of Circular Economy (DAN-CE) is organizing a full-day event bringing together early career researchers from all disciplines working on the acceleration of the transition to a circular society in the Netherlands. Living within planetary boundaries while ensuring wellbeing requires real system transformation across academic disciplines and beyond. This event is a step toward finding convergence and leveraging tension points between early-career researchers across the field. 
 
-*Traveling reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*
+*It is a completely free event. Traveling reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*
 
