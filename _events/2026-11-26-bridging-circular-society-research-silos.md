@@ -46,5 +46,5 @@ The PhD & Postdoc Council of the Dutch Academic Network on Circular Economy (DAN
 **How to sign up?**
 Sign up via the registration [link](https://forms.gle/Z8JWEuQsD8LDzk4c8). If you would like to present your research via a pitch or presentation you are required to submit an abstract (max 150 words). In the abstract, please shortly elaborate on the context, approach, findings, and significance of the research or ideas you would like to present.
 
-*The event is free of charge. Travel reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*
+**Attendance at the event is free of charge.** *Travel reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*
 
