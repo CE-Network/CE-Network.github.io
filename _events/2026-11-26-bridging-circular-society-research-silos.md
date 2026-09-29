@@ -12,14 +12,14 @@ credit: "Copernicus Junior Fund, UU Circular Economy Community and the ACT! Cons
 programme_title: "What's in it for you?"
 programme:
   - title: "Panel Discussion"
-    description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Marieke van Doorninck (Social innovator and former Deputy Mayor of Amsterdam), Julian Kirchherr (Utrecht University, Roskilde University, and McKinsey & Company), Winne van Woerden (Oxfam Novib),  and others to be announced soon!"
+    description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Marieke van Doorninck (Social innovator and former Deputy Mayor of Amsterdam), Julian Kirchherr (Utrecht University, Roskilde University, and McKinsey & Company), Winne van Woerden (Oxfam Novib), Xander Slager (Circular entrepreneur and co-founder of New Optimist)!"
   - title: "Research Presentations"
     description: "Present your own work to peers and senior researchers, and discover what fellow PhD candidates and postdocs are working on across Dutch universities. Full presentation (15 mins) and pitch presentations (5 mins) are available."
   - title: "Living Map Workshop"
     description: "What connects your research to that of the other researchers at the event? Ahead of the event, [CommunitySense](https://www.communitysense.nl/) builds a custom living map of participants' PhD or postdoc research projects, charting them along four dimensions: the scientific fields you draw on, the sectors you study, the research methods you use, and the geographical contexts you work in.<br>During the workshop we explore that map together. After a plenary introduction, small groups zoom in on particular parts of the map and distil 'seeds of change': concrete challenges plus possible directions for action. These are added back into the map afterwards, so they remain visible after the event.<br>You leave with a clearer sense of where your own project sits in the wider field, a set of people whose work genuinely overlaps with yours, and a shared basis for collaboration in our community!<br>*A maximum of 30 projects will be mapped, allocated in order of registration. Indicate in the registration survey whether you would like your own project included. If you are among the first 30, you will receive a short follow-up survey closer to the workshop date. Everyone is welcome to join the workshop, whether or not their own project is mapped.*"
   - title: "Networking & Drinks"
     description: "Connect with your peers, senior staff and panelists present enjoying a drink. The free event also includes lunch."
-panelists_title: "Panelists (others to be announced soon)"
+panelists_title: "Panelists"
 panelists:
   - name: "Marieke van Doorninck"
     affiliation: "Social innovator and former Deputy Mayor of Amsterdam"
@@ -33,6 +33,10 @@ panelists:
     affiliation: "Oxfam Novib"
     bio: "Winne van Woerden works as Influencing Lead New Economy at Oxfam Novib. In her role, she works towards a fundamental shift in our economic narratives and models - away from growth and towards justice, care and ecology. Besides her work at Oxfam, she is active as an affiliate at the Post Growth Institute, and is one of the co-authors of the influential book 'Er is Leven Na de Groei'."
     photo: "vanwoerden-winne.jpg"
+  - name: "Xander Slager"
+    affiliation: "Circular entrepreneur"
+    bio: "Xander Slager is an entrepreneur and growth strategist. He is the co-founder of the local and circular fashion start-up New Optimist, which became recognized as a leading example of what the future of fashion can look like. After having spent more than 15 years in Asia working closely with supply chains, factories and production teams, Xander now builds companies and brands that aim to shift culture, rethink production and create meaningful value."
+    photo: "slager-xander.jpg"
 ---
 **Call for participants and presentations:**
 
