@@ -41,7 +41,7 @@ That's it. The website rebuilds itself automatically, usually within a minute or
 
 They appear on the site automatically, sorted alphabetically by surname.
 
-## Checking your edit before it's public
+## Checking your edit
 
 Small text edits (a name, a date, a sentence) can't break the page layout — the template controls that, not you. To actually see the result:
 
