@@ -7,7 +7,7 @@ location_name: "Playground Utrecht University, Vening Meineszgebouw C"
 location_address: "Princetonlaan 6, 3584 CB Utrecht"
 location_url: "https://www.google.nl/maps/place/Princetonlaan+6,+3508+TA+Utrecht"
 #registration_opens: 2026-09-21
-registration_note: "**Register [here](https://forms.gle/Z8JWEuQsD8LDzk4c8)**<br>The registration deadline is **16 October 2026** for presenters and workshop participants, availability is limited."
+registration_note: "**The registration is closed.**<br> In case you still want to join the event, please write us at dutchcephd@protonmail.com."
 credit: "Copernicus Junior Fund, UU Circular Economy Community and the ACT! Consortium."
 programme_title: "What's in it for you?"
 programme:
