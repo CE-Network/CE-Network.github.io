@@ -26,17 +26,41 @@
   <div class="event-body">
     {{ include.event.content }}
 
+    {% if include.event.agenda %}
+    <details class="collapsible"{% if include.event.agenda_open != false %} open{% endif %}>
+      <summary><h3 class="agenda-title">{{ include.event.agenda_title | default: "Agenda" }}</h3></summary>
+      <ul class="agenda">
+        {% for slot in include.event.agenda %}
+        <li{% if slot.type == "break" %} class="agenda-break"{% endif %}>
+          <span class="agenda-time">{{ slot.time }}</span>
+          <div class="agenda-item">
+            {% capture slot_title %}{{ slot.title | markdownify }}{% endcapture %}
+            <h4>{{ slot_title | remove: "<p>" | remove: "</p>" | strip }}</h4>
+            {% if slot.description %}{{ slot.description | markdownify }}{% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+
+    {% if include.event.parallel_sessions_url %}
+    <p class="event-file-link"><a href="{{ include.event.parallel_sessions_url }}" target="_blank" rel="noopener">{{ include.event.parallel_sessions_label | default: "Overview of the parallel session presentations" }} &rarr;</a></p>
+    {% endif %}
+
     {% if include.event.programme %}
-    <h3 class="programme-title">{{ include.event.programme_title | default: "Programme" }}</h3>
-    <ol class="programme">
-      {% for step in include.event.programme %}
-      <li>
-        {% capture step_title %}{{ step.title | markdownify }}{% endcapture %}
-        <h4>{{ step_title | remove: "<p>" | remove: "</p>" | strip }}</h4>
-        {% if step.description %}{{ step.description | markdownify }}{% endif %}
-      </li>
-      {% endfor %}
-    </ol>
+    <details class="collapsible"{% if include.event.programme_open != false %} open{% endif %}>
+      <summary><h3 class="programme-title">{{ include.event.programme_title | default: "Programme" }}</h3></summary>
+      <ol class="programme">
+        {% for step in include.event.programme %}
+        <li>
+          {% capture step_title %}{{ step.title | markdownify }}{% endcapture %}
+          <h4>{{ step_title | remove: "<p>" | remove: "</p>" | strip }}</h4>
+          {% if step.description %}{{ step.description | markdownify }}{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
     {% endif %}
 
     {% if include.event.panelists %}

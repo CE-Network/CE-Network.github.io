@@ -2,23 +2,53 @@
 title: "Bridging Circular Society Research Silos: Where do Scopes Meet?"
 event_type: "Full-day symposium for PhD candidates and postdocs"
 date: 2026-11-26
-time: "09:00–18:00"
+time: "09:00–18:30"
 location_name: "Playground Utrecht University, Vening Meineszgebouw C"
 location_address: "Princetonlaan 6, 3584 CB Utrecht"
 location_url: "https://www.google.nl/maps/place/Princetonlaan+6,+3508+TA+Utrecht"
 #registration_opens: 2026-09-21
-registration_note: "**The registration is closed.**<br> In case you still want to join the event, please write us at dutchcephd@protonmail.com."
+registration_note: "**The registration is closed.**<br>"
 credit: "Copernicus Junior Fund, UU Circular Economy Community and the ACT! Consortium."
 programme_title: "What's in it for you?"
 programme:
   - title: "Panel Discussion"
     description: "How can cross collaboration across disciplines and sectors accelerate the transition to a circular society? Featuring Marieke van Doorninck (Social innovator and former Deputy Mayor of Amsterdam), Ernst Worrell (Utrecht University), Winne van Woerden (Oxfam Novib), Xander Slager (Circular entrepreneur and co-founder of New Optimist)!"
-  - title: "Research Presentations"
+  - title: "Parallel Session"
     description: "Present your own work to peers and senior researchers, and discover what fellow PhD candidates and postdocs are working on across Dutch universities. Full presentation (15 mins) and pitch presentations (5 mins) are available."
   - title: "Living Map Workshop"
     description: "What connects your research to that of the other researchers at the event? Ahead of the event, [CommunitySense](https://www.communitysense.nl/) builds a custom living map of participants' PhD or postdoc research projects, charting them along four dimensions: the scientific fields you draw on, the sectors you study, the research methods you use, and the geographical contexts you work in.<br>During the workshop we explore that map together. After a plenary introduction, small groups zoom in on particular parts of the map and distil 'seeds of change': concrete challenges plus possible directions for action. These are added back into the map afterwards, so they remain visible after the event.<br>You leave with a clearer sense of where your own project sits in the wider field, a set of people whose work genuinely overlaps with yours, and a shared basis for collaboration in our community!<br>*A maximum of 30 projects will be mapped, allocated in order of registration. Indicate in the registration survey whether you would like your own project included. If you are among the first 30, you will receive a short follow-up survey closer to the workshop date. Everyone is welcome to join the workshop, whether or not their own project is mapped.*"
   - title: "Networking & Drinks"
     description: "Connect with your peers, senior staff and panelists present enjoying a drink. The free event also includes lunch."
+agenda_title: "Agenda"
+agenda:
+  - time: "09:00–09:30"
+    title: "Registration & coffee"
+  - time: "09:30–11:00"
+    title: "Opening & Panel discussion"
+  - time: "11:00–11:15"
+    title: "Break & coffee"
+    type: "break"
+  - time: "11:15–12:45"
+    title: "Parallel sessions"
+  - time: "12:45–13:45"
+    title: "Lunch"
+    type: "break"
+  - time: "13:45–15:15"
+    title: "Workshop part 1"
+  - time: "15:15–15:30"
+    title: "Break & coffee"
+    type: "break"
+  - time: "15:30–16:30"
+    title: "Workshop part 2"
+  - time: "16:30–17:00"
+    title: "Closing"
+  - time: "17:00–18:30"
+    title: "Networking & Drinks"
+    type: "break"
+parallel_sessions_url: "/assets/symposium-parallel-sessions-overview.pdf"
+parallel_sessions_label: "List of all parallel session presentations (PDF)"
+programme_open: true
+agenda_open: true
 panelists_title: "Panelists"
 panelists:
   - name: "Marieke van Doorninck"
@@ -48,7 +78,7 @@ Your research is part of a bigger picture! The Netherlands is a leading circular
 The PhD & Postdoc Council of the Dutch Academic Network on Circular Economy (DAN-CE) is organizing a full-day symposium bringing together early career researchers from all disciplines working on the acceleration of the transition to a circular society in the Netherlands. Living within planetary boundaries while ensuring wellbeing requires real system transformation across academic disciplines and beyond. This event is a step toward finding convergence and leveraging tension points between early-career researchers across the field.
 
 **How to sign up?**
-Sign up via the registration [link](https://forms.gle/Z8JWEuQsD8LDzk4c8). If you would like to present your research via a pitch or presentation you are required to submit an abstract (max 150 words). *For a full presentation, you should shortly elaborate on the context, approach, findings, and significance of the research you would like to present.
+Sign-up is closed. If you would like to present your research via a pitch or presentation you are required to submit an abstract (max 150 words). *For a full presentation, you should shortly elaborate on the context, approach, findings, and significance of the research you would like to present.
 A pitch can also be about an idea or ongoing research. If you feel like you have nothing to present yet, we greatly encourage you to do a pitch presentation to get yourself out there!*
 
 **Attendance at the event is free of charge.** *Travel reimbursement is possible for selected participants. Please contact us with your request at dutchcephd@protonmail.com*

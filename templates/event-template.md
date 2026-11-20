@@ -50,6 +50,24 @@ programme:
   - title: "Second programme item"
     description: "What happens in this part. You can link things like this: [Community Sense](https://www.communitysense.nl/)."
 
+# Optional — a time-slotted agenda, shown below the programme. Leave out
+# entirely if there isn't one. "Agenda" is the default heading; set
+# agenda_title to override it. "description" is optional per slot.
+# To add a slot, copy one "- time: ..." block.
+agenda_title: "Agenda"
+agenda:
+  - time: "09:00–09:30"
+    title: "Registration & coffee"
+  - time: "09:30–10:30"
+    title: "Opening and keynote"
+    description: "Optional extra detail for this slot."
+
+# Optional — a link (e.g. to a PDF in assets/ or an external file) shown
+# under the agenda. Leave both lines out if there's no file. The label is
+# optional and defaults to "Overview of the parallel session presentations".
+parallel_sessions_url: "/assets/parallel-sessions.pdf"
+parallel_sessions_label: "Overview of the parallel session presentations"
+
 # Optional — leave out entirely if there's no panel to introduce. Shown
 # below the programme. Photo is required (no initials fallback like the
 # Council photos); put panelist photos in assets/photos/panelists/ — a
