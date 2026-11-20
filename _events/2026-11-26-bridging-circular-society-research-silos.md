@@ -30,6 +30,8 @@ agenda:
     type: "break"
   - time: "11:15–12:45"
     title: "Parallel sessions"
+    link_url: "/assets/symposium-parallel-sessions-overview.pdf"
+    link_label: "List of all parallel session presentations (PDF)"
   - time: "12:45–13:45"
     title: "Lunch"
     type: "break"
@@ -45,8 +47,6 @@ agenda:
   - time: "17:00–18:30"
     title: "Networking & Drinks"
     type: "break"
-parallel_sessions_url: "/assets/symposium-parallel-sessions-overview.pdf"
-parallel_sessions_label: "List of all parallel session presentations (PDF)"
 programme_open: true
 agenda_open: true
 panelists_title: "Panelists"

@@ -50,9 +50,13 @@ programme:
   - title: "Second programme item"
     description: "What happens in this part. You can link things like this: [Community Sense](https://www.communitysense.nl/)."
 
-# Optional — a time-slotted agenda, shown below the programme. Leave out
+# Optional — a time-slotted agenda, shown above the programme. Leave out
 # entirely if there isn't one. "Agenda" is the default heading; set
-# agenda_title to override it. "description" is optional per slot.
+# agenda_title to override it. Per slot, "description", "link_url" and
+# "link_label" are optional; add 'type: "break"' for breaks, lunch and
+# drinks to give the row a soft tint. A link (e.g. to a PDF in assets/)
+# is shown under that slot's title; link_label defaults to "More information".
+# agenda_open: false starts the agenda collapsed (default: open).
 # To add a slot, copy one "- time: ..." block.
 agenda_title: "Agenda"
 agenda:
@@ -61,12 +65,11 @@ agenda:
   - time: "09:30–10:30"
     title: "Opening and keynote"
     description: "Optional extra detail for this slot."
-
-# Optional — a link (e.g. to a PDF in assets/ or an external file) shown
-# under the agenda. Leave both lines out if there's no file. The label is
-# optional and defaults to "Overview of the parallel session presentations".
-parallel_sessions_url: "/assets/parallel-sessions.pdf"
-parallel_sessions_label: "Overview of the parallel session presentations"
+    link_url: "/assets/some-file.pdf"
+    link_label: "Link text for the file"
+  - time: "10:30–10:45"
+    title: "Break & coffee"
+    type: "break"
 
 # Optional — leave out entirely if there's no panel to introduce. Shown
 # below the programme. Photo is required (no initials fallback like the

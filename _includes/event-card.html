@@ -37,15 +37,12 @@
             {% capture slot_title %}{{ slot.title | markdownify }}{% endcapture %}
             <h4>{{ slot_title | remove: "<p>" | remove: "</p>" | strip }}</h4>
             {% if slot.description %}{{ slot.description | markdownify }}{% endif %}
+            {% if slot.link_url %}<p class="agenda-link"><a href="{{ slot.link_url }}" target="_blank" rel="noopener">{{ slot.link_label | default: "More information" }} &rarr;</a></p>{% endif %}
           </div>
         </li>
         {% endfor %}
       </ul>
     </details>
-    {% endif %}
-
-    {% if include.event.parallel_sessions_url %}
-    <p class="event-file-link"><a href="{{ include.event.parallel_sessions_url }}" target="_blank" rel="noopener">{{ include.event.parallel_sessions_label | default: "Overview of the parallel session presentations" }} &rarr;</a></p>
     {% endif %}
 
     {% if include.event.programme %}
