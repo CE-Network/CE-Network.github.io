@@ -504,6 +504,12 @@ p:last-child { margin-bottom: 0; }
   font-weight: 400;
 }
 
+/* Stacked layout on phones: the time column's fixed width would otherwise
+   become a fixed height */
+@media (max-width: 520px) {
+  .agenda li.agenda-break .agenda-time { flex-basis: auto; }
+}
+
 .agenda .agenda-link {
   margin-top: 4px;
   font-size: 0.92rem;
