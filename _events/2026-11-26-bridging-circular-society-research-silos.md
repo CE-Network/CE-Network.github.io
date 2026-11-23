@@ -54,6 +54,7 @@ panelists:
   - name: "Ernst Worrell"
     affiliation: "Utrecht University"
     bio: "Ernst Worrel is professor at Utrecht University's Copernicus Institute of Sustainable Development, specialising in circularity, energy and material use and industrial sustainability."
+    photo: "Worrell_Ernst.png"
   - name: "Marieke van Doorninck"
     affiliation: "Social innovator and former Deputy Mayor of Amsterdam"
     bio: "Marieke van Doorninck is a social innovator who served as Amsterdam's Deputy Mayor for Spatial Development and Sustainability (2018–2022), where she worked to combine the shift to sustainable energy and a climate-neutral city with climate justice, and later led the social innovation lab Kennisland as director. Today she is kwartiermaker of the Post-Growth Living Lab at the Marineterrein for AMS Institute, chairs De Gezonde Stad and (ad interim) Amsterdam Energie, co-chairs the Board of Trustees of WECF International, and advises the We Doen Het Samen coalition on public affairs. With a background spanning human rights, sustainability and the circular economy, she is driven by social and ecological justice and a belief in 'changing by doing': supporting initiatives from the ground up and giving people a real stake in their own living environment, work and future."
