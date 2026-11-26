@@ -1,7 +1,7 @@
 ---
 title: "Bridging Circular Society Research Silos: Where do Scopes Meet?"
 event_type: "Full-day symposium for PhD candidates and postdocs"
-date: 2026-11-26
+date: 2026-11-26 23:59
 time: "09:00–18:30"
 location_name: "Playground Utrecht University, Vening Meineszgebouw C"
 location_address: "Princetonlaan 6, 3584 CB Utrecht"
