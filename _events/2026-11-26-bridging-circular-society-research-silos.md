@@ -37,6 +37,8 @@ agenda:
     type: "break"
   - time: "13:45–15:15"
     title: "Workshop part 1"
+    link_url: "/assets/Community workshop teams.pdf"
+    link_label: "Workshop groups (PDF)"
   - time: "15:15–15:30"
     title: "Break & coffee"
     type: "break"
